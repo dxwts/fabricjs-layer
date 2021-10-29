@@ -255,7 +255,7 @@ class LayerManager implements LayerManagerIface {
     };
     this._activeLayer.fire(le);
 
-    console.log("added", e.target, "to", this._activeLayer);
+    // console.log("added", e.target, "to", this._activeLayer);
   }
 
   /**
